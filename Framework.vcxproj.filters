@@ -1,0 +1,224 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Framework">
+      <UniqueIdentifier>{5282736b-f12f-4907-8a63-7d81779ee44c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Framework">
+      <UniqueIdentifier>{a0123610-585f-4105-9f9c-07a454c05a6a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Manager">
+      <UniqueIdentifier>{f706229a-e53f-4613-a36e-d777014971e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\GameClass">
+      <UniqueIdentifier>{c3334f96-62f5-4b47-a7dd-881d2953400a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Components">
+      <UniqueIdentifier>{3d32a544-6aad-4c31-a9fe-265993684270}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Components\Animation">
+      <UniqueIdentifier>{a027087e-44b1-472d-afb7-316de7b537c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Presentation">
+      <UniqueIdentifier>{d24f3e45-29b4-413e-8aeb-7a8b7de39dbb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\GameScene">
+      <UniqueIdentifier>{9bffd8c3-666c-4a93-a5b7-cc56feae779e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\GameScene\OtherScenes">
+      <UniqueIdentifier>{78aeb1d9-cd39-4f60-bc36-02265f4113e0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="D2DApp.cpp">
+      <Filter>Framework\Presentation</Filter>
+    </ClCompile>
+    <ClCompile Include="WinApp.cpp">
+      <Filter>Framework\Presentation</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>Framework\GameClass</Filter>
+    </ClCompile>
+    <ClCompile Include="Transform.cpp">
+      <Filter>Framework\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>Framework\GameClass</Filter>
+    </ClCompile>
+    <ClCompile Include="Component.cpp">
+      <Filter>Framework\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderInfo.cpp">
+      <Filter>Framework\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderingManager.cpp">
+      <Filter>Framework\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework.cpp">
+      <Filter>Framework\Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="InputManager.cpp">
+      <Filter>Framework\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Animation.cpp">
+      <Filter>Framework\Components\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimationInfo.cpp">
+      <Filter>Framework\Components\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="SheetAnimation.cpp">
+      <Filter>Framework\Components\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="TimeManager.cpp">
+      <Filter>Framework\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="AABBCollider.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="GameScene.cpp">
+      <Filter>Framework\GameScene</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet.cpp">
+      <Filter>Framework\GameScene</Filter>
+    </ClCompile>
+    <ClCompile Include="BulletManager.cpp">
+      <Filter>Framework\GameScene</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy.cpp">
+      <Filter>Framework\GameScene</Filter>
+    </ClCompile>
+    <ClCompile Include="ListAnimation.cpp">
+      <Filter>Framework\Components\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Framework\GameScene</Filter>
+    </ClCompile>
+    <ClCompile Include="Hpbar.cpp">
+      <Filter>Framework\GameScene</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerHpbar.cpp">
+      <Filter>Framework\GameScene</Filter>
+    </ClCompile>
+    <ClCompile Include="EBulletManager.cpp">
+      <Filter>Framework\GameScene</Filter>
+    </ClCompile>
+    <ClCompile Include="WinScene.cpp">
+      <Filter>Framework\GameScene\OtherScenes</Filter>
+    </ClCompile>
+    <ClCompile Include="EnterWMain.cpp">
+      <Filter>Framework\GameScene\OtherScenes</Filter>
+    </ClCompile>
+    <ClCompile Include="MainScene.cpp">
+      <Filter>Framework\GameScene\OtherScenes</Filter>
+    </ClCompile>
+    <ClCompile Include="EnterWGame.cpp">
+      <Filter>Framework\GameScene\OtherScenes</Filter>
+    </ClCompile>
+    <ClCompile Include="GameOverScene.cpp">
+      <Filter>Framework\GameScene\OtherScenes</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Framework\GameScene</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="WinApp.h">
+      <Filter>Framework\Presentation</Filter>
+    </ClInclude>
+    <ClInclude Include="D2DApp.h">
+      <Filter>Framework\Presentation</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>Framework\GameClass</Filter>
+    </ClInclude>
+    <ClInclude Include="Transform.h">
+      <Filter>Framework\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>Framework\GameClass</Filter>
+    </ClInclude>
+    <ClInclude Include="Component.h">
+      <Filter>Framework\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderInfo.h">
+      <Filter>Framework\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector2.h">
+      <Filter>Framework\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderingManager.h">
+      <Filter>Framework\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework.h">
+      <Filter>Framework\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Framework\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="InputManager.h">
+      <Filter>Framework\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation.h">
+      <Filter>Framework\Components\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimationInfo.h">
+      <Filter>Framework\Components\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="SheetAnimation.h">
+      <Filter>Framework\Components\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="TimeManager.h">
+      <Filter>Framework\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="AABBCollider.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="GameScene.h">
+      <Filter>Framework\GameScene</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet.h">
+      <Filter>Framework\GameScene</Filter>
+    </ClInclude>
+    <ClInclude Include="BulletManager.h">
+      <Filter>Framework\GameScene</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy.h">
+      <Filter>Framework\GameScene</Filter>
+    </ClInclude>
+    <ClInclude Include="ListAnimation.h">
+      <Filter>Framework\Components\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Framework\GameScene</Filter>
+    </ClInclude>
+    <ClInclude Include="Hpbar.h">
+      <Filter>Framework\GameScene</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerHpbar.h">
+      <Filter>Framework\GameScene</Filter>
+    </ClInclude>
+    <ClInclude Include="EBulletManager.h">
+      <Filter>Framework\GameScene</Filter>
+    </ClInclude>
+    <ClInclude Include="WinScene.h">
+      <Filter>Framework\GameScene\OtherScenes</Filter>
+    </ClInclude>
+    <ClInclude Include="EnterWMain.h">
+      <Filter>Framework\GameScene\OtherScenes</Filter>
+    </ClInclude>
+    <ClInclude Include="MainScene.h">
+      <Filter>Framework\GameScene\OtherScenes</Filter>
+    </ClInclude>
+    <ClInclude Include="EnterWGame.h">
+      <Filter>Framework\GameScene\OtherScenes</Filter>
+    </ClInclude>
+    <ClInclude Include="GameOverScene.h">
+      <Filter>Framework\GameScene\OtherScenes</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Vector2.inl">
+      <Filter>Framework\Components</Filter>
+    </None>
+  </ItemGroup>
+</Project>
